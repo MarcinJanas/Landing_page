@@ -12,6 +12,16 @@ body{
   padding: 0 20px;
   color: #93063E;
 }
+.logos{
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 32px;
+}
+.nav__link{
+  text-decoration: none;
+  color:inherit;
+}
 .navigation{
   position: fixed;
   width: 100%;
