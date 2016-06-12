@@ -70,8 +70,7 @@
           <div class="skills">
             <div class="skill__column">
               <img class="column__icon" src="images/ico1.svg">
-              <p>Curabitur consectetuer congue dolor. Vivamus vitae dui et turpis. Sed ornare, orci luctus diam. Fusce tempor scelerisque. Pellentesque euismod, quam at purus. Fusce ligula. Nam turpis egestas. Aenean ac ipsum. Suspendisse sed turpis. Duis ante eget risus. Sed metus. Curabitur sit amet eros. Maecenas in nulla sed lorem eget volutpat metus. Nulla convallis justo. Praesent vitae orci. Cum sociis
-              </p></div>
+              <p>Morbi quis consectetuer ut, blandit vel, ornare varius, nisl auctor neque. Mauris imperdiet, urna eu turpis eget accumsan lectus lectus, tincidunt nec, turpis. Duis ac lectus. Nullam suscipit vitae, ullamcorper in, dui. Ut molestie justo at ipsum primis in quam. Cum sociis natoque penatibus et risus in fermentum ut, lectus. Ut libero ornare egestas blandit, quam.</p></div>
             <div class="skill__column">
               <img class="column__icon" src="images/ico2.svg">
               <p>Proin urna. Donec pede. Etiam sit amet tellus. Cras semper leo. Pellentesque habitant morbi tristique sem. Quisque nec diam eu mi. Pellentesque porta ut, diam. Morbi cursus non, quam. Nulla ipsum ac lacus. Curabitur placerat, nulla in wisi. Sed pharetra. Cras turpis metus feugiat velit.
@@ -158,10 +157,10 @@
               </div>
             </div>
             <div class="form">
-              <input class="contact__input" type="text" name="lastName" placeholder="Name" />
-              <input class="contact__input" type="email" name="email" placeholder="Mail" />
+              <input class="contact__input" type="text" name="lastName" placeholder="Name" v-model="name" />
+              <input class="contact__input" type="email" name="email" placeholder="Mail" v-model="mail" />
               <textarea class="contact__input contact__textarea" placeholder="Message"></textarea>
-              <button class="contact__button" name="contact__button">Send message</button>
+              <button class="contact__button" name="contact__button" @click="sayHi()">Send message</button>
             </div>
           </div>
         </div>

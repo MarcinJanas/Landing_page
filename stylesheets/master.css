@@ -190,6 +190,7 @@ body{
   background-image: url(../images/chart.svg);
   background-size:contain;
   height: 657px;
+  background-repeat: no-repeat;
 }
 .charts__title{
   margin-top: 0;
